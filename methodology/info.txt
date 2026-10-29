@@ -1,0 +1,32 @@
+Identyfikacja ścieżek transformacji klimatycznej państw z wykorzystaniem klasteryzacji szeregów czasowych i modeli predykcyjnych emisji gazów cieplarnianych
+
+Pytania badawcze:
+    - Czy przynależność do wspólnego kontynetu oznacza wspólną ścieżkę transformacji klimatycznej?
+    - Czy prognoza szeregu uśrednionego klastra da taki sam wynik jak średnia z osobnych prognoz per państwo w obrębie klastra?
+    - Do jakiej przwidzianej emisji gazów cieplarnianych per capita doprowadzą poszczególne ścieżki transformacji klimatycznej?.
+    - Jakie typy trajektori się wyłonią i czy będą stabilne.
+
+
+Hipoteza:
+    - Podział krajów na klastry DTW jest istotnie zgodny z podziałem na kontynenty, ale zgodność jest tylko częściowa.
+    - Wynik z osobnego liczenia prognoz per państwo w obrębie klastra będzie dokładniejszy niż uśrednionego klastra.
+    - Na horyzoncie do roku 2030 największą emisję gazów per capita będą miały kraje azjatykie.
+   
+    
+
+Zbióry danych:
+
+    WDI - World Identification Indicator 
+        Kraje z wynikiem przynajmniej 70% zawierających danych oraz brakiem Nan na krawędziach - uniemożliwia interpolację. 
+
+Wskaźniki 
+ 
+    - Emisja gazów cieplarnianych per capita,
+    - Intensywność węglowa,
+    - Intensywność energetyczna,
+    - Udział % odnwaialnych źródeł energii,
+    - Zużycie energii per capita,
+    - PKB per capita.
+
+
+ 
